@@ -1,1 +1,2 @@
-# test
+# Biodata
+Biodata merupakan aplikasi sederhana berbasis web yang menggunakan framework laravel 5.5. Biodata memiliki fitur untuk menerima inputan seperti nama,email,tanggal lahir,telepon,gender, dan alamat. Inputan tersebut nantinya akan disimpan pada folder storage/app/ dalam bentuk file txt. Setiap inputan dipisahkan menggunakan tanda koma(",").  Selain itu inputan dapa ditampilkan melalui halaman web dengan mengakses http://localhost/form/(inputan nama)-(waktu pembuatan)
