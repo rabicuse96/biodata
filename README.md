@@ -3,7 +3,7 @@ Biodata merupakan aplikasi sederhana berbasis web yang menggunakan framework lar
 
 # Deploy Untuk Penggunaan Local Server
 ## Install Depedency
-Melakukan instalasi sekumpulan library yang dibutuhkan oleh aplikasi laravel. Untuk melakukan instalasi,gunakan perintah berikut
+Melakukan instalasi sekumpulan library yang dibutuhkan oleh aplikasi laravel. Untuk melakukan instalasi arahkan path pada cmd ke folder aplikasi yang telah di unduh, kemudian gunakan perintah berikut
 
 
 ```$ composer install```
