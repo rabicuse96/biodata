@@ -14,9 +14,14 @@ class FormController extends Controller
 
     //Method untuk menampilkan isi file yang telah berhasil disimpan dalam storage lokal
     public function show($id){
-      $content = Storage::get(''.$id.'.txt');
-      $array   = explode(",",$content);
-      return  view('form/formdetail', ['array'=> $array]);
+      if($exists = Storage::exists(''.$id.'.txt')) {
+        $content   = Storage::get(''.$id.'.txt');
+        $array   = explode(",",$content);
+        return  view('form/formdetail', ['array'=> $array]);
+     }
+      else {
+        return "data tidak ditemukan";
+      }
     }
 
     //Method untuk menyimpan inputan form kedalam storage lokal dalam bentu file txt
